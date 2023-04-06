@@ -1,5 +1,11 @@
-# Guia para aprende JAVA
+# Introducao a JAVA
 
+        Ola me chamo Joao e atraves da alura estarei me comprometendo a esta aprendendo a linguagem JAVA e a tambem esta publicando e mostrando meu proguesso espero que gostem!!
+
+        Hello, my name is Joao and through this I am committing myself to learning the JAVA language and also publishing and showing my progress, I hope you like it!!
+
+
+### Guia para o estudo em JAVA
 
 ```
 Se você é novo na programação em geral ou apenas no Java, é importante começar com os conceitos básicos da linguagem. Recomendo que você comece pelos seguintes tópicos:
