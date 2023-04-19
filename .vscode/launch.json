@@ -9,6 +9,13 @@
             "name": "PriProjeto",
             "request": "launch",
             "mainClass": "PriProjeto",
+            "projectName": "Aprendendo-JAVA_9e48e9e7"
+        },
+        {
+            "type": "java",
+            "name": "PriProjeto",
+            "request": "launch",
+            "mainClass": "PriProjeto",
             "projectName": "StudentJava_fb2cfc0b"
         },
         {

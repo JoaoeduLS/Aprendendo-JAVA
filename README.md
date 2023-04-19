@@ -57,3 +57,7 @@
 
                 }
         }
+
+#### Para println mais rapido use:
+
+* sout
