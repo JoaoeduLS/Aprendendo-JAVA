@@ -1,16 +1,15 @@
 import java.util.Scanner;
 
 public class testes {
-//Para poder fazer digitacao nao terminal esse e o format cod.
+//Para poder fazer digitacao no terminal essa e a forma 
     public static void main(String[] args) {
-        try (Scanner testes = new Scanner(System.in)) {
+        try (Scanner test = new Scanner(System.in)) {
             System.out.print("Type your name: ");
-            String nome = testes.nextLine();
-            System.out.println();
-
+            String name = test.nextLine();
+            
             
 //Para poder usar condicoes em strings e essa a forma
-    if(nome.equalsIgnoreCase("Joao Eduardo") )
+    if(name.equalsIgnoreCase("Joao Eduardo") )
     {
            System.out.println("yes ok ok !!!");
     }
