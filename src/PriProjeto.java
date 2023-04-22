@@ -9,8 +9,8 @@ public class PriProjeto {
     System.out.println("Ano de Lancamento:" + anoDeLancamento);
     
     //variavel que assume os valores true ou false
-    boolean IncluidoNoPlano = true;
-    double notaDoFilme  = 8.1;
+    /*boolean IncluidoNoPlano = true;
+    double notaDoFilme  = 8.1;*/
 
     double media=(9.8 + 6.3+8.0)/3;
 
@@ -23,6 +23,10 @@ public class PriProjeto {
         """ + anoDeLancamento;
 
     System.out.println(sionpse);
+
+    int classificacao;
+    classificacao= (int) (media/2);
+    System.out.println(classificacao);
     
 
 }
