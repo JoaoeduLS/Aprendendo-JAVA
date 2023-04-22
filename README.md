@@ -4,12 +4,11 @@
 
         Hello, my name is Joao and through this I am committing myself to learning the JAVA language and also publishing and showing my progress, I hope you like it!!
 
+## Me desafiando a aprende e presquisando
 
-## Me desafiando a aprende e presquisando 
-
-* "\n" Para fazer o quebramento de linhas nas strings do println
-* Sempre use o + para adiciona e para junta no println
-* Para coloca o numero como um decimal completo e nescessario este exemplo
+- "\n" Para fazer o quebramento de linhas nas strings do println
+- Sempre use o + para adiciona e para junta no println
+- Para coloca o numero como um decimal completo e nescessario este exemplo
 
         import java.text.DecimalFormat;
         import java.util.Locale;
@@ -23,19 +22,20 @@
                 }
         }
 
-* Para escrever uma String e o oposto de Int exemplo
+- Para escrever uma String e o oposto de Int exemplo
 
-        //Com valor 
+        //Com valor
 
         int valor = 42;
         String valorString = String.valueOf(valor);
         System.out.println("O valor é: " + valorString);
-        
-        //Sem valor 
+
+        //Sem valor
 
         String Empresa = String.valueOf("Marvel Studio");
 
 ### Resultado do teste
+
         //PRIMEIRO TESTE COM O JAVA : lISTA
 
         import java.text.DecimalFormat;
@@ -43,14 +43,14 @@
 
         public class PriProjeto {
         public static void main (String[] args){
-        
+
         int Lancamento = 2022;
         String Empresa = String.valueOf("Marvel Studio");
         String NomedoFilme = String.valueOf("Homem Aranha");
 
         double preco = 18.3456;
 
-        DecimalFormat formatoPreco = (DecimalFormat) 
+        DecimalFormat formatoPreco = (DecimalFormat)
         DecimalFormat.getCurrencyInstance(new Locale("pt", "BR"));
 
         System.out.println("Ano de Lancamento: " + Lancamento + "\nEmpresa: " + Empresa + "\nNome do Filme: " + NomedoFilme + "\nPreço: " + formatoPreco.format(preco) );
@@ -60,4 +60,59 @@
 
 #### Para println mais rapido use:
 
-* sout
+- sout
+
+### Treinando true e false
+
+                import java.util.Scanner;
+
+                public class testes {
+                //Para poder fazer digitacao nao terminal esse e o format cod.
+                public static void main(String[] args) {
+                        try (Scanner testes = new Scanner(System.in)) {
+                        System.out.print("Digite seu nome: ");
+                        String nome = testes.nextLine();
+                        System.out.println();
+
+
+                //Para poder usar condicoes em strings e essa a forma
+                if(nome.equals("joao") )
+                {
+                        System.out.println("yes ok ok !!!");
+                }
+                else {
+                System.out.println("what is yor name?");
+                        }
+                }
+                }
+                }
+
+- dica depois que terminei o treino:
+
+        O código funciona bem para o propósito de verificar se o nome digitado pelo usuário é "joao". No entanto, é importante notar que o método equals() é sensível a maiúsculas e minúsculas. Se você quiser tornar a verificação de nome insensível a maiúsculas e minúsculas, você pode usar o método equalsIgnoreCase() ao invés do equals().
+
+```
+import java.util.Scanner;
+
+public class testes {
+//Para poder fazer digitacao nao terminal esse e o format cod.
+    public static void main(String[] args) {
+        try (Scanner testes = new Scanner(System.in)) {
+            System.out.print("Type your name: ");
+            String nome = testes.nextLine();
+            System.out.println();
+
+
+//Para poder usar condicoes em strings e essa a forma
+    if(nome.equalsIgnoreCase("Joao Eduardo") )
+    {
+           System.out.println("yes ok ok !!!");
+    }
+    else {
+       System.out.println("what is yor name?");
+         }
+       }
+    }
+}
+
+```
