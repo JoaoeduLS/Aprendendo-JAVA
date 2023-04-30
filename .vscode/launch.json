@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "LeituraScanner",
+      "request": "launch",
+      "mainClass": "LeituraScanner",
+      "projectName": "StudentJava_fb2cfc0b"
+    },
+    {
+      "type": "java",
       "name": "CrontrolFluxodaAplicao",
       "request": "launch",
       "mainClass": "CrontrolFluxodaAplicao",
