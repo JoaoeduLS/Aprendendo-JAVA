@@ -29,6 +29,17 @@ public class PriProjeto {
     System.out.println(classificacao);
     
 
+   /*  Escreva um programa que converta uma temperatura em graus Celsius para Fahrenheit.
+    Utilize variáveis para representar os valores das temperaturas e imprima no console o 
+    valor convertido de Celsius para Fahrenheit.*/
+
+
+    int Celsius =  12;
+    int Fahrenheit = 32;
+
+    double resultado =  (Celsius *1.8) + Fahrenheit;
+
+    System.out.println(resultado);
 }
 }
  
