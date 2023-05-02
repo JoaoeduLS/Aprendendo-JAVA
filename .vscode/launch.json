@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "OutroLoop",
+      "request": "launch",
+      "mainClass": "OutroLoop",
+      "projectName": "Aprendendo-JAVA_9e48e9e7"
+    },
+    {
+      "type": "java",
       "name": "Loop",
       "request": "launch",
       "mainClass": "Loop",
