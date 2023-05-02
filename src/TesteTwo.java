@@ -5,7 +5,7 @@ public class TesteTwo {
     public static void main(String[] args) {
         Scanner leitura=new Scanner(System.in);
         int aleatoria = new Random().nextInt(100);
-        System.out.println("qual avaliacao voce da a ao filme:");
+        System.out.println("numero da jogada:");
         
 
         for (int i = 0; i < 5; i++) {
