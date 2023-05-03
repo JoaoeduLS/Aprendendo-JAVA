@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Calculadora",
+      "request": "launch",
+      "mainClass": "Calculadora",
+      "projectName": "Aprendendo-JAVA_9e48e9e7"
+    },
+    {
+      "type": "java",
       "name": "TesteTwo",
       "request": "launch",
       "mainClass": "TesteTwo",
