@@ -6,6 +6,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Desafio",
+      "request": "launch",
+      "mainClass": "Desafio",
+      "projectName": "StudentJava_fb2cfc0b"
+    },
+    {
+      "type": "java",
+      "name": "Calculadora",
+      "request": "launch",
+      "mainClass": "Calculadora",
+      "projectName": "StudentJava_fb2cfc0b"
+    },
+    {
+      "type": "java",
       "name": "Calculadora",
       "request": "launch",
       "mainClass": "Calculadora",

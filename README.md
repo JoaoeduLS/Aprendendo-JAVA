@@ -153,3 +153,26 @@ switch (dia) {
 
 System.out.println("O dia " + dia + " é " + nomeDia);
 ```
+
+#### Para colocar um valor com o símbolo do dinheiro em Java, você pode usar a classe NumberFormat. Por exemplo, para exibir um valor em Reais (R$), você pode fazer o seguinte:
+
+```
+import java.text.NumberFormat;
+import java.util.Locale;
+
+public class Exemplo {
+    public static void main(String[] args) {
+        double valor = 1234.56;
+        Locale locale = new Locale("pt", "BR"); // cria um Locale para o Brasil
+        NumberFormat formatador = NumberFormat.getCurrencyInstance(locale); // cria um formatador de valores monetários
+        String valorFormatado = formatador.format(valor); // formata o valor como uma String com o símbolo do Real (R$)
+        System.out.println(valorFormatado); // exibe o valor formatado: R$ 1.234,56
+    }
+}
+```
+
+#### Para imprimir uma quebra de linha no console do Java
+
+```
+System.out.println("Primeira linha" + System.lineSeparator() + "Segunda linha");
+```
