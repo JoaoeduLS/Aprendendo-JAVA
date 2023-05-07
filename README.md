@@ -176,3 +176,15 @@ public class Exemplo {
 ```
 System.out.println("Primeira linha" + System.lineSeparator() + "Segunda linha");
 ```
+
+### Final
+
+Chegamos ao final deste curso e você pôde conhecer e praticar os principais conceitos da linguagem Java. Você instalou e configurou o seu ambiente, utilizando a JDK e a IDE IntelliJ, pôde entender o papel da JVM e o que são os arquivos .class que são gerados ao compilar a aplicação.
+
+Iniciou conosco o desenvolvimento da aplicação ScreenMatch, nossa plataforma de filmes online, aprendendo os tipos de variáveis, como declará-las e atribuir valores a elas. Aprendeu a utilizar os operadores de atribuição, aritméticos, relacionais e lógicos. Fez leitura de dados com a classe Scanner, utilizou estruturas de decisão e repetição. E ainda fechou o curso criando uma nova aplicação como desafio!
+
+Quanta coisa interessante!
+
+Lembrando que tem muito mais para estudar sobre tudo que vimos aqui.
+
+Mais uma vez, parabéns! Obrigada por ter me acompanhado até aqui.
