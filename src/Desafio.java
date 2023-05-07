@@ -6,10 +6,8 @@ public class Desafio {
     public static void main(String[] args) {
         Scanner resposta= new Scanner(System.in); 
         
-        String nome ; nome= """
-                 Nome: Joao Edaurdo""";
-        String tipoConta ; tipoConta= """
-            Tipo de Conta: Corrente """;
+        String nome ; nome= " Nome: Joao Edaurdo";
+        String tipoConta ; tipoConta= " Tipo de Conta: Corrente ";
         double valor1 = 1220.00;
         double resultado = valor1 ;
         valor1 = resultado;
