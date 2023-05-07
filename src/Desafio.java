@@ -10,17 +10,22 @@ public class Desafio {
                  Nome: Joao Edaurdo""";
         String tipoConta ; tipoConta= """
             Tipo de Conta: Corrente """;
-        double valor = 1220.00;
+        double valor1 = 1220.00;
+        double resultado = valor1 ;
+        valor1 = resultado;
         Locale locale = new Locale("pt", "BR"); 
         NumberFormat formatador = NumberFormat.getCurrencyInstance(locale); 
-        String valorFormatado = formatador.format(valor); 
-        
+        String valorFormatado = formatador.format(valor1); 
+        boolean sair =false;
 
         System.out.println(nome); 
         System.out.println(tipoConta); 
         System.out.println("Salario Inicial: "+ valorFormatado+"\n"); 
 
-              
+
+              while ( !sair) {
+                
+            
         System.out.println("OPERACOES\n");
 
 
@@ -35,24 +40,33 @@ public class Desafio {
                 System.out.println(valorFormatado+"\n");
                 break;
             case 2:
+            
             System.out.println("Informe o valor a receber:");
             double novoValor= resposta.nextDouble();
-            double resultado =novoValor+valor;  
-            Locale local = new Locale("pt", "BR"); 
-            NumberFormat formata = NumberFormat.getCurrencyInstance(local); 
-            String valorFormat = formata.format(resultado);
-            System.out.println("Saldo atualizado: "+valorFormat+"\n");
+            double resultado2 =novoValor+valor1;  
+            Locale local2 = new Locale("pt", "BR"); 
+            NumberFormat formata2 = NumberFormat.getCurrencyInstance(local2); 
+            String valorFormat2 = formata2.format(resultado2);
+            System.out.println("Saldo atualizado: "+valorFormat2+"\n");
                 
                 break;
             case 3:
+             System.out.println("Informe o valor a receber:");
+            double novoValor3= resposta.nextDouble();
+            double resultado3 =novoValor3-valor1;  
+            Locale local3 = new Locale("pt", "BR"); 
+            NumberFormat formata3 = NumberFormat.getCurrencyInstance(local3); 
+            String valorFormat3 = formata3.format(resultado3);
+            System.out.println("Saldo atualizado: "+valorFormat3+"\n");
                 
                 break;
             case 4:
-                
-                break;
-
+                sair=true;
+            break;
             default:
-                break;
+                System.out.println("Opção inválida");
+            break;
+             }
         }
     }
 }
